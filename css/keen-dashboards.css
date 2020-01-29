@@ -1,0 +1,142 @@
+
+/*
+ * Full-page application style
+ */
+html{
+  background: black;
+}
+
+body.application {
+  background: black;
+}
+
+body.application > .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+body.application div[class^="col-"] {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+body.application div[class^="col-"] div[class^="col-"] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body.application hr {
+  border-color: #d7d7d7;
+  margin: 10px 0;
+}
+
+.navbar-inverse .navbar-title{
+  font-weight: 600 !important;
+}
+
+.widgets {
+  padding: 20px 20px 0;
+  background: black;
+}
+
+.main-nav > li > a:hover {
+  border-bottom: 2px solid transparent;
+  -webkit-transition: border 300ms ease;
+  -o-transition: border 300ms ease;
+  transition: border 300ms ease;
+  border-bottom-color: white;
+}
+
+.return-link, .return-link:focus, .return-link:hover {
+  text-decoration: none;
+}
+
+.chart-wrapper {
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.chart-wrapper .chart-title {
+  border-bottom: 1px solid #d7d7d7;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 7px 10px 4px;
+  background: white;
+}
+
+.chart-wrapper .chart-stage {
+  min-height: 240px;
+  overflow: hidden;
+  padding: 5px 0px;
+  position: relative;
+  background: black;
+}
+
+.chart-wrapper .chart-notes {
+  background: black;
+  border-top: 1px solid #e2e2e2;
+  color: #808080;
+  font-size: 12px;
+  padding: 8px 10px 5px;
+}
+
+.chart-wrapper .chart-stage .keen-metric {
+  margin-top: 78px;
+}
+
+.widgets .keen-dataviz-metric {
+  min-height: 230px;
+}
+
+.keen-dataviz-metric.keen-dataviz-box {
+  background: black !important;
+}
+
+
+
+/* Working */
+.keen-dataviz .c3-axis.c3-axis-y .tick text {
+  fill: white;
+}
+.keen-dataviz .c3-axis.c3-axis-x .tick text {
+  fill: white;
+}
+.keen-dataviz .keen-c3-legend .legend-item-text {
+  color: white;
+}
+.keen-dataviz .c3-tooltip {
+  color: purple;
+  background-color: purple;
+}
+.keen-dataviz .keen-dataviz-metric-value {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.keen-dataviz-table th {
+  text-align: left;
+  color: #222222;
+}
+.keen-dataviz-table tr td,
+.keen-dataviz-table .table-data-row {
+  text-align: left;
+  color: #222222;
+}
+.keen-dataviz-table .table-data-row:nth-child(even) td {
+  background-color: #f3f5f6;
+}
+.keen-dataviz-table .table-data-row:hover td {
+  background-color: #e7e7ec;
+  color: inherit;
+}
+.keen-dataviz-rendering .text-label {
+  display: block;
+  fill: #ffa500;
+}
+
+.keen-dataviz-rendering .text-label {
+  display: block;
+  fill: white !important;
+  font-weight: bold;
+  /* font-style: italic; */
+}

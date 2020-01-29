@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+html {
+    height: auto;
+}
+
+body.visible-events-list {
+    padding-bottom: 220px;
+}
+
+body {
+    padding-top: 80px;
+}
+
+/* Product */
+
+.product-image {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 0 auto 10px;
+}
+
+#product-container .product-title {
+    margin-bottom: 15px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#product-container .product-description {
+    margin-bottom: 15px;
+}
+
+/* Index */
+.products-list .products-row {
+    min-height: 280px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.product-listing {
+    background: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.products-list .products-row:last-child {
+    border-bottom: none;
+}
+
+.products-list .products-row .product-image .loading {
+    margin-top: 90px;
+}
+
+.products-list .products-row .product-image img {
+    display: block;
+    width: 200px;
+}
+
+.products-list .products-row .product-title {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.products-list .products-row a{
+}
+
+/* Events Stream */
+.events-list {
+    display: none;
+
+    position: fixed;
+    bottom: 0;
+
+    height: 200px;
+    width: 100%;
+}
+
+.events-list .events-title {
+    color: white;
+    background: #00afd7;
+
+    padding: 8px;
+
+    border-top: 1px solid #ccc;
+}
+
+.events-list .events {
+    height: 163px;
+    padding: 8px;
+    margin: 0;
+    overflow: scroll;
+}
+
+.events-list .events code {
+    padding: 0px;
+    margin: 0;
+}
+
+body.products-listing {
+    background-color: #F1F1F1;
+}
+
+body.visible-events-list .events-list {
+    display: block;
+}
+
+.keen-metric {
+    color: black !important;
+}
+
+.revenue .keen-metric .keen-metric-value:before {
+    content: '$';
+}
+
+.main-actions-bar {
+    margin-bottom: 20px;
+    background: #444;
+    padding: 15px 0;
+    width: 100%;
+    margin-top: -12px;
+    background: orange !important;
+}
+
+.main-actions.bar .icon {
+    margin-right: 8px;
+}
+
+.top-notice {
+    width: 100%;
+    background: #FFF;
+    padding: 20px 0;
+    margin: -20px 0 20px 0;
+    border-bottom: 1px solid #DDD;
+}
