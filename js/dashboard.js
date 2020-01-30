@@ -123,7 +123,7 @@ function showAddToCartRate() {
     const chart = new KeenDataviz({
         container: '#add-to-cart',
         showLoadingSpinner: true,
-        type: 'funnel',
+        type: 'funnel-3d',
         labelMapping: {
             product_views: 'Demos Held',
             add_to_carts: 'Demos Completed',
@@ -330,7 +330,7 @@ function showConversionRate() {
             transition: {
                 duration: 0
             },
-        type: 'funnel',
+        type: 'funnel-3d',
         labelMapping: {
             first_visits: 'Demo Signup',
             purchases: 'Trial',
