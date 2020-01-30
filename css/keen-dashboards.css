@@ -1,4 +1,4 @@
-
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
 /*
  * Full-page application style
  */
@@ -69,8 +69,8 @@ body.application hr {
 .chart-wrapper .chart-title {
   border-bottom: 1px solid #d7d7d7;
   color: white;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
   padding: 7px 10px 4px;
   background: black;
   text-align: center;
@@ -121,8 +121,8 @@ body.application hr {
   background-color: white;
 }
 .keen-dataviz .keen-dataviz-metric-value {
-  font-size: 60px;
-  font-weight: bold;
+  font-size: 50px;
+  font-weight: normal;
   color: #ffffff;
 }
 .keen-dataviz-table th {
