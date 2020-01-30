@@ -32,7 +32,7 @@ function showPurchaseFunnel() {
             add_to_carts: 'Closed Won',
             purchases: 'Closed Lost'
         },
-        palette: 'modern'
+        palette: 'autocollector'
     });
 
     const client = window._keenClient;
@@ -81,7 +81,7 @@ function showLifeTimeValue() {
         container: '#lifetime-value',
         type: 'metric',
         showLoadingSpinner: true,
-        palette: 'modern',
+        palette: 'autocollector',
         prefix: "$",
         clearOnRender: true,
         transition: {
@@ -133,7 +133,7 @@ function showAddToCartRate() {
                 show: true,
             },
         },
-        palette: 'modern',
+        palette: 'autocollector',
         clearOnRender: true,
         transition: {
             duration: 0
@@ -178,7 +178,7 @@ function showTotalRevenue() {
         container: '#total-revenue',
         type: 'metric',
         showLoadingSpinner: true,
-        palette: 'modern',
+        palette: 'autocollector',
         prefix: "$",
         title: 'Goal Exceeded!',
         clearOnRender: true,
@@ -218,7 +218,7 @@ function showDailyRevenue() {
         container: '#chart-revenue',
         type: 'area-spline',
         showLoadingSpinner: true,
-        palette: 'modern',
+        palette: 'autocollector',
         title: '',
         axis: {
             y: {
@@ -273,7 +273,7 @@ function showAOV() {
         container: '#chart-aov',
         type: 'area-spline',
         showLoadingSpinner: true,
-        palette: 'modern',
+        palette: 'autocollector',
         title: '',
         axis: {
             y: {
@@ -340,7 +340,7 @@ function showConversionRate() {
                 show: true,
             },
         },
-        palette: 'modern',
+        palette: 'autocollector',
     });
 
     const client = window._keenClient;
@@ -382,7 +382,7 @@ function showRepeatPurchaseRate() {
         container: '#repeat-purchasers',
         type: 'metric',
         showLoadingSpinner: true,
-        palette: 'modern',
+        palette: 'autocollector',
         suffix: "%",
         clearOnRender: true,
         transition: {
@@ -426,7 +426,7 @@ function showMostPopularProducts() {
         container: '#most-popular-products',
         type: 'donut',
         showLoadingSpinner: true,
-        palette: 'modern',
+        palette: 'autocollector',
         title: '',
         clearOnRender: true,
         transition: {
@@ -465,7 +465,7 @@ function showMostViewedProducts() {
         container: '#most-viewed-products',
         type: 'area-step',
         showLoadingSpinner: true,
-        palette: 'modern',
+        palette: 'autocollector',
         title: '',
         clearOnRender: true,
         transition: {
