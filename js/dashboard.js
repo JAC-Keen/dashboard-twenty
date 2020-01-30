@@ -83,7 +83,7 @@ function showLifeTimeValue() {
         showLoadingSpinner: true,
         palette: 'autocollector',
         prefix: "$",
-        title: 'Trending to Goal',
+        title: '',
         clearOnRender: true,
         transition: {
             duration: 0
@@ -181,7 +181,7 @@ function showTotalRevenue() {
         showLoadingSpinner: true,
         palette: 'autocollector',
         prefix: "$",
-        title: 'Goal Exceeded!',
+        title: '',
         clearOnRender: true,
         transition: {
             duration: 0
@@ -385,7 +385,7 @@ function showRepeatPurchaseRate() {
         showLoadingSpinner: true,
         palette: 'autocollector',
         suffix: "%",
-        title: 'Highly Performant',
+        title: '',
         clearOnRender: true,
         transition: {
             duration: 0
