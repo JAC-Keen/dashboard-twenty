@@ -68,11 +68,12 @@ body.application hr {
 }
 .chart-wrapper .chart-title {
   border-bottom: 1px solid #d7d7d7;
-  color: black;
+  color: white;
   font-size: 14px;
   font-weight: 600;
   padding: 7px 10px 4px;
-  background: white;
+  background: black;
+  text-align: center;
 }
 
 .chart-wrapper .chart-stage {
@@ -116,8 +117,8 @@ body.application hr {
   color: white;
 }
 .keen-dataviz .c3-tooltip {
-  color: white;
-  background-color: purple;
+  color: black;
+  background-color: white;
 }
 .keen-dataviz .keen-dataviz-metric-value {
   font-size: 60px;
