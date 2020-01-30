@@ -125,8 +125,8 @@ function showAddToCartRate() {
         showLoadingSpinner: true,
         type: 'funnel',
         labelMapping: {
-            product_views: 'Product views',
-            add_to_carts: 'Add to carts',
+            product_views: 'Demos Held',
+            add_to_carts: 'Demos Completed',
         },
         funnel: {
             percents: {
