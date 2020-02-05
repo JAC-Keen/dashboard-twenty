@@ -2,12 +2,22 @@
 /*
  * Full-page application style
  */
+
+ /* @font-face {
+     font-family: GangsterGrotesk-Light !important;
+     font-size: 18px !important;
+     src: url("fonts/GangsterGrotesk-Light.otf") format("opentype");
+} */
+
 html{
   background: black;
+  font-family: 'Varela Round', sans-serif !important;
+  font-size: 24px !important;
 }
 
 body.application {
   background: black;
+  font-family: 'Varela Round', sans-serif !important;
 }
 
 body.application > .container-fluid {
@@ -157,6 +167,6 @@ body.application hr {
 .keen-dataviz-rendering .text-label {
   display: block;
   fill: white !important;
-  font-weight: bold;
+  font-weight: normal;
   /* font-style: italic; */
 }
