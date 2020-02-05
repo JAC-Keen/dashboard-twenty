@@ -38,6 +38,10 @@ body.application hr {
   margin: 10px 0;
 }
 
+div.collapse.navbar-collapse.keen-navbar-collapse{
+  background: black !important;
+}
+
 .btn-danger {
     background-color: rgb(55, 70, 149);
     border-color: white;
