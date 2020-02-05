@@ -124,7 +124,7 @@ function showAddToCartRate() {
     const chart = new KeenDataviz({
         container: '#add-to-cart',
         showLoadingSpinner: true,
-        type: 'funnel-3d',
+        type: 'horizontal-funnel-3d',
         labelMapping: {
             product_views: 'Demos Held',
             add_to_carts: 'Demos Completed',
